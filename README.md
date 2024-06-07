@@ -20,5 +20,5 @@ All previous links will be stored even between browsing sessions, click the Clea
 1. Clone or download the repository to your local machine.
 2. Open Chrome and navigate to `chrome://extensions/`.
 3. Enable "Developer mode" by toggling the switch in the top right corner.
-4. Click the "Load unpacked" button and select the directory where you downloaded or cloned the repository.
+4. Click the "Load unpacked" button and select the directory where you downloaded or cloned the repository and choose the extension directory.
 5. The extension should now appear in your list of installed extensions.
