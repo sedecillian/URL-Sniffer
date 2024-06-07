@@ -1,0 +1,24 @@
+{
+    "manifest_version": 2,
+    "name": "URL Sniffer",
+    "version": "1.0",
+    "description": "A extension to capture and export links to local file",
+    "permissions": ["webRequest", "webRequestBlocking", "storage", "activeTab", "<all_urls>"],
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": true
+    },
+    
+    "browser_action": {
+      "default_popup": "popup.html"
+    },
+    "options_page": "settings.html",
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["content.js"]
+      }
+    ]
+}
+
+//author:sedecillian contact:github.com/sedecillian
